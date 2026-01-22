@@ -125,8 +125,7 @@ const Login = () => {
               {/* Brand */}
               <div className="mb-5">
                 <p className="text-xs font-semibold text-[#E56A5A] tracking-wide">
-                  Baby Shop
-                </p>
+My Project                </p>
                 <h2 className="text-2xl font-extrabold text-slate-900">
                   {mode === "login" ? "Login" : "Create Account"}
                 </h2>

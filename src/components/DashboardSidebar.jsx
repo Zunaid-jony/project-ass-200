@@ -17,7 +17,7 @@ const BRAND = "#1089bc";
 const links = [
   { label: "Dashboard", path: "/", icon: FiGrid },
   { label: "Services", path: "/services", icon: FiTag },
-  { label: "Product", path: "/product", icon: FiPlus },
+  { label: "Projects", path: "/projects", icon: FiPlus },
 
   { label: "Team", path: "/team", icon: FiUsers },
 ];
@@ -55,7 +55,7 @@ export default function DashboardSidebar({ onNavigate }) {
           <div className="relative h-11 w-11 flex items-center justify-center ml-10">
             <img
               src={imgs}
-              alt="Baby Shop"
+              alt="My Project"
               className="absolute h-16 w-auto max-w-none object-contain"
               onError={(e) => {
                 e.currentTarget.style.display = "none";
